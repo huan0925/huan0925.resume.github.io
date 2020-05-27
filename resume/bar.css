@@ -1,0 +1,25 @@
+* {box-sizing:border-box}
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.java {width: 50%; background-color: #4CAF50;  height: 40px} /* Green */
+.c {width: 60%; background-color: #2196F3;} /* Blue */
+.html {width: 80%; background-color: #f44336;} /* Red */
+.css {width: 80%; background-color: #808080;} /* Dark Grey */
+.javascript {width: 30%; background-color: #4CAF50;} /* Green */
+.python {width: 55%; background-color: #2196F3;} /* Blue */
+.mysql {width: 50%; background-color: #f44336;} /* Red */
+.excel {width: 65%; background-color: #808080;} /* Dark Grey */
+.badminton {width: 70%; background-color: #4CAF50;} /* Green */
+.basketball {width: 60%; background-color: #2196F3;} /* Blue */
+.eng {width: 80%; background-color: #f44336;} /* Red */

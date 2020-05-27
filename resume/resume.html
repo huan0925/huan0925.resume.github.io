@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>resume</title>
+	
+	<style type="text/css">
+		@import url("style.css");
+		@import url("bar.css");
+
+		<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 200px;
+  display: none;
+  overflow: hidden;
+}
+</style>
+	</style>
+</head> 
+<body>
+	<img class="a" src="pic/1.jpg" style="position: absolute; left:38px; top: 25px; width: 300px; height: 350px;">
+	<h1 style="position: absolute; left:10cm; top: 25px;">我是林芝歡，現在就讀中原大學資訊管理系大二，<br/>我現在是中原校羽的，打羽球是我的興趣！</h1>
+	<h2 style="position: absolute; left:15cm; top: 3.5cm; color:#FF60AF;">我的座右銘：</h2>
+	<h2 class="b" style="position: absolute; left:10.5cm; top: 6cm; color:#FF00FF;"> DON'T DIE BEFORE YOU DEAD!</h2>
+
+	 <div><a href="https://www.facebook.com/profile.php?id=100000340394219" target="_blank" title="My Facebook!"><img src="pic/fb.jpg" height="50" width="50"style="position: absolute; left:90px; top:10.5cm; border-radius: 50%;"></a>
+        <a href="https://www.instagram.com/z.h_lin_880925/" target="_blank" title="My instagram!"><img src="pic/ig.jpg" height="50" width="50"style="position: absolute; left:160px; top:10.5cm; border-radius: 50%;"></a>
+	<a href="https://huan0925.github.io/introduction/" target="_blank" title="My Introduction!"><img src="pic/me.png" height="50" width="50"style="position: absolute; left:230px; top:10.5cm; border-radius: 50%;"></a></div>
+
+<h2 style="position: absolute; top:12cm; left: 12.5cm ">Skills</h2>
+<section style="position: absolute; left: 8cm; top: 15cm;">	
+  <p>JAVA</p>
+<div class="container" >
+  <div class="skills java">50%</div>
+</div>
+
+<p>C#</p>
+<div class="container">
+  <div class="skills c">60%</div>
+</div>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">80%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+</section>
+<section style="position: absolute; left: 13cm; top: 15cm; "> 
+	<p>JavaScript</p>
+<div class="container" >
+  <div class="skills javascript">30%</div>
+</div>
+
+<p>Python</p>
+<div class="container">
+  <div class="skills python">55%</div>
+</div>
+
+<p>mySQL</p>
+<div class="container">
+  <div class="skills mysql">50%</div>
+</div>
+
+<p>EXCEL</p>
+<div class="container">
+  <div class="skills excel">65%</div>
+</div>
+</section>
+
+<section style="position: absolute; left: 18cm; top: 16cm;"> 
+<p>Badminton</p>
+<div class="container" >
+  <div class="skills badminton">70%</div>
+</div>
+
+<p>Basketball</p>
+<div class="container">
+  <div class="skills basketball">60%</div>
+</div>
+
+<p>ENGLISH</p>
+<div class="container">
+  <div class="skills eng">80%</div>
+</div>
+
+</section>
+
+<h2 style="position: absolute; top:25cm; left: 10.5cm ">EXPERIENCE</h2>
+<section style="position: absolute; left:90px; top:28cm;">
+<button class="accordion">大一上管理學</button>
+<div class="panel">
+  <img src="pic/4.jpg" height="50" width="50" style="width: 300px; height: 250px">
+</div>
+
+<button class="accordion">大一下企業概論</button>
+<div class="panel">
+  <img src="pic/5.jpg" height="50" width="50" style="width: 300px; height: 250px">
+</div></section>
+
+<section style="position: absolute; left:15cm; top:28cm;">
+<button class="accordion">大二上期末demo</button>
+<div class="panel">
+  <img src="pic/3.jpg" height="50" width="50" style="width: 300px; height: 250px">
+</div>
+
+<button class="accordion">大二下期中demo</button>
+<div class="panel">
+  <p style="border-style: solid; border-radius:15px; ">在多媒體期中demo當中，我們做的報告是推銷學校推廣教育中心的課程，在這次的期中報告中知道了大家要分工合作，大家都做好自己分內的事情，每個人的負擔就相對減少了，謝謝組員的大力相助！</p>
+</div>
+</section>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</body>
+</html>

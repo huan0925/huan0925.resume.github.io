@@ -1,0 +1,36 @@
+body{
+	background-color: #2894FF;
+	position: absolute;
+	border-style: solid;
+	padding-right: 0cm;
+	padding-left: 30cm;
+	padding-top: 50cm;
+	padding-bottom: 0cm
+}
+.a{
+	border-radius: 50%
+	
+}
+h1{
+	text-align: center;
+	font-family: 微軟正黑體;
+}
+
+h2{
+	
+	color: #9F35FF;
+	font-family: 微軟正黑體;
+	font-size: 40px;
+}
+.b{
+	font-family: 微軟正黑體;
+	font-size: 40px;
+	background-color: #9F35FF;
+	border-color: #CA8EFF;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+p{
+	font-family: 微軟正黑體;
+}
